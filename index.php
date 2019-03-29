@@ -15,7 +15,27 @@
 ?>
 </head>
 <body>
-
+<nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a id="navbar-color" class="navbar-brand" style="font-size: 32px;" href="#">2B-KMUTT</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a id="navbar-color" href="#" style="font-size: 32px;">หน้าหลัก</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a id="navbar-color" href="#" style="font-size: 32px;"> ภาษาไทย</a></li>
+        <li><a id="navbar-color" href="#" style="font-size: 32px;"> ภาษาอังกฤษ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <!-- <nav class="navbar navbar-expand-lg scrolling-navbar navbar-light bg-light">
 	<div class="container">
       <a class="navbar-brand" href="#" style="font-family: engchalk; color: black;"><strong>STAR VOTE</strong></a>
@@ -31,8 +51,8 @@
       </div>
   </div>
 </nav> -->
-
 <section id="board">
+  <br><br>
 	<div class="container-fluid">
 		<center>
 			<p style="font-family: thai;font-size: 70px;color: white;">" วันวานยังหวานอยู่ "</p>
@@ -45,9 +65,9 @@
 			<div class="col-sm-6">
 				<center>
 				<div class="poraroid">
-					<a href="javascript:void(0)" data-toggle="modal" data-target="#doawModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#doawModal" class="top_hover">
 						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p>ดาว</p>
+						<p id="modal_thai">ดาว</p>
 					</a>
 				</div>
   				</center>
@@ -55,9 +75,9 @@
 			<div class="col-sm-6">
 				<center>
 				<div class="poraroid">
-					<a href="javascript:void(0)" data-toggle="modal" data-target="#deanModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#deanModal" class="top_hover">
 						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p>เดือน</p>
+						<p id="modal_thai">เดือน</p>
 					</a>
 				</div>
   				</center>
@@ -65,9 +85,9 @@
 			<div class="col-sm-6">
 				<center>
 				<div class="poraroid">
-					<a href="javascript:void(0)" data-toggle="modal" data-target="#doawtheamModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#doawtheamModal" class="top_hover">
 						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p>ดาวเทียม</p>
+						<p id="modal_thai">ดาวเทียม</p>
 					</a>
 				</div>
   				</center>
@@ -75,16 +95,15 @@
 			<div class="col-sm-6">
 				<center>
 				<div class="poraroid">
-					<a href="javascript:void(0)" data-toggle="modal" data-target="#doawtheamModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#doawtheamModal" class="top_hover">
 						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p>สิ่งศักดิ์สิทธิ</p>
+						<p id="modal_thai">สิ่งศักดิ์สิทธิ์</p>
 					</a>
 				</div>
   				</center>
 			</div>
 		</div>	
 	</div>
-	<img src="pic/borderwood.jpg" style="width: 100%">
 </section>
 
 <!--DOAW-->
@@ -96,8 +115,7 @@
       <div class="modal-body" >
       	<center>
       	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-      	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-      	  <p>ดาว</p>
+      	  <p id="modal_thai">ดาว</p>
   		</center>
       </div>
    </div>
@@ -113,7 +131,7 @@
       <div class="modal-body" >
       	<center>
       	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-  		  <p>เดือน</p>
+  		  <p id="modal_thai">เดือน</p>
   		</center>
       </div>
    </div>
@@ -130,7 +148,7 @@
       <div class="modal-body" >
       	<center>
       	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-  		  <p>ดาวเทียม</p>
+  		  <p id="modal_thai">ดาวเทียม</p>
   		</center>
       </div>
    </div>
@@ -146,25 +164,31 @@
       <div class="modal-body" >
       	<center>
       	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
+<<<<<<< HEAD
   		  <p>สิ่งศักดิ์สิทธิ์</p>
+=======
+  		  <p id="modal_thai">สิ่งศักดิ์สิทธิ</p>
+>>>>>>> e86fc22d6ad3571608c777f2e300acea30a61156
   		</center>
       </div>
    </div>
   </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-4 col-md-2">
-          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover">
-            <img src="pic/bgbackground.jpg" class="img-responsive book">
-          </a>
-        </div>
-        
-        <div class="col-xs-12 shelf"></div>
-    </div>
-</div>
-
+<section id="turn">
+  <br><br>
+  <div class="container">
+      <div class="row">
+          <div class="col-xs-4 col-md-2">
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover">
+              <img src="pic/bgbackground.jpg" class="img-responsive book">
+            </a>
+          </div>
+          
+          <div class="col-xs-12 shelf"></div>
+      </div>
+  </div>
+</section>
 <!--book-->
 <div id="bookModal" class="modal fade" role="dialog">
   <div class="modal-dialog" style="margin-top: 100px;">
@@ -232,6 +256,18 @@ $(document).ready(function()
         }
     });
   });
+})
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if (scroll > 200) {
+      $(".navbar").css("background" , "#36353d");
+    }
+
+    else{
+      $(".navbar").css("background" , "transparent");   
+    }
+  })
 })
 </script>
 
