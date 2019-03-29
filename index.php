@@ -146,7 +146,7 @@
       <div class="modal-body" >
       	<center>
       	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-  		  <p>สิ่งศักดิ์สิทธิ</p>
+  		  <p>สิ่งศักดิ์สิทธิ์</p>
   		</center>
       </div>
    </div>
@@ -171,7 +171,7 @@
 
     <!-- Modal content-->
     <div class="modal-content" style="background-color: transparent; border: none;">
-      <div class="modal-body" >
+      <div class="modal-body">
         <center>
           <div id="flipbook">
             <div class="hard"> Turn.js </div>

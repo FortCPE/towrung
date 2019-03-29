@@ -59,20 +59,6 @@ body {
   background: rgba(255,0,0,0.4); 
 }
 
-.parallax {
-  /* The image used */
-  background-image: url(../../pic/bookshelf1.jpg);
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #board
 {
   background: url(../../pic/bgbackground.jpg) no-repeat center fixed; 
@@ -205,9 +191,6 @@ footer a:hover {
 }
 #loginModal{
 	margin-top: 5rem;
-}
-.container-fluid {
-     padding: 60px 50px;
 }
 .bg-grey {
     background-color: #f6f6f6;
