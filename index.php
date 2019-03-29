@@ -157,7 +157,7 @@
     <div class="row">
         <div class="col-xs-4 col-md-2">
           <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover">
-            <img src="bgbackground.jpg" class="img-responsive book">
+            <img src="pic/bgbackground.jpg" class="img-responsive book">
           </a>
         </div>
         
