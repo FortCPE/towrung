@@ -34,7 +34,7 @@
 <section id="board">
 	<div class="container-fluid">
 		<center>
-			<p style="font-family: thai;font-size: 70px;color: white;">" วันวานยังหวานอยู่ "</p>
+			<p style="font-family: thai;font-size: 70px;color: white;">" ==== "</p>
 			<p style="margin-top: -15px;font-family: thai;font-size: 40px; color: white">ประกวดดาวเดือนเเห่งยุค ตามหาหนุ่มสาวสุดฮอตเเห่งปี ๒๕๖๒</p>
 			<img src="pic/oldpaper.png" style="width: 100%">
 		</center>
