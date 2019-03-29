@@ -37,27 +37,13 @@ body {
     overflow-x: hidden;
 }
 
+.modal-content{
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+}
 
-/* Let's get this party started */
-::-webkit-scrollbar {
-    width: 8px;
-}
- 
-/* Track */
-::-webkit-scrollbar-track {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: rgba(255,0,0,0.8); 
-}
-::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(255,0,0,0.4); 
-}
 
 .parallax {
   /* The image used */
@@ -83,6 +69,13 @@ body {
   height: auto;
 	margin: 0;
 	padding: 0;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#turn{
+  
 }
 
 .navbar {
@@ -102,4 +95,15 @@ body {
     .navbar {
         background: #f6f6f6;
     }
+}
+#modal_thai{
+  font-family: thai;
+  font-size: 48px;
+  text-decoration: none;
+  color: #888;
+  transition: 0.3s;
+}
+#modal_thai:hover{
+  color: #FFF;
+  text-decoration: none;
 }
