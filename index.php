@@ -156,59 +156,39 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover">
+            <img src="bgbackground.jpg" class="img-responsive book">
+          </a>
         </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>      
-        <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>  
-        <div class="col-xs-12 shelf"></div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>  
-        <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-4 col-md-2">
-          <a href=""><img src="http://diysolarpanelsv.com/images/books-clipart-transparent-background-31.png" class="img-responsive book"></a>
-        </div>  
+        
         <div class="col-xs-12 shelf"></div>
     </div>
 </div>
 
+<!--book-->
+<div id="bookModal" class="modal fade" role="dialog">
+  <div class="modal-dialog" style="margin-top: 100px;">
 
-<div id="flipbook">
-  <div class="hard"> Turn.js </div>
-  <div class="hard"></div>
-  <div> Page 1 </div>
-  <div> Page 2 </div>
-  <div> Page 3 </div>
-  <div> Page 4 </div>
-  <div class="hard"></div>
-  <div class="hard"></div>
+    <!-- Modal content-->
+    <div class="modal-content" style="background-color: transparent; border: none;">
+      <div class="modal-body" >
+        <center>
+          <div id="flipbook">
+            <div class="hard"> Turn.js </div>
+            <div class="hard"></div>
+            <div> Page 1 </div>
+            <div> Page 2 </div>
+            <div> Page 3 </div>
+            <div> Page 4 </div>
+            <div class="hard"></div>
+            <div class="hard"></div>
+          </div>
+      </center>
+      </div>
+   </div>
+  </div>
 </div>
+
 <script type="text/javascript">
   $("#flipbook").turn({
     width: 400,
