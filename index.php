@@ -16,21 +16,21 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg scrolling-navbar navbar-light bg-light">
+<!-- <nav class="navbar navbar-expand-lg scrolling-navbar navbar-light bg-light">
 	<div class="container">
-            <a class="navbar-brand" href="#" style="font-family: engchalk; color: black;"><strong>STAR VOTE</strong></a>
-            <button class="navbar-toggler" style="color: black;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav navbar-nav ml-auto">
-       			
-        			<li><a href="#" style="color: black;"><i class="fas fa-language"></i>&nbsp;ภาษาไทย&nbsp;</a></li>
-        			<li><a href="#" style="color: black;">&nbsp;English&nbsp;</a></li>
-      		</ul>
-            </div>
-        </div>
-</nav>
+      <a class="navbar-brand" href="#" style="font-family: engchalk; color: black;"><strong>STAR VOTE</strong></a>
+      <button class="navbar-toggler" style="color: black;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav navbar-right">
+ 			
+  			<li><a href="#" style="color: black;"><i class="fas fa-language"></i>&nbsp;ภาษาไทย&nbsp;</a></li>
+  			<li><a href="#" style="color: black;">&nbsp;English&nbsp;</a></li>
+		</ul>
+      </div>
+  </div>
+</nav> -->
 
 <section id="board">
 	<div class="container-fluid">
