@@ -15,8 +15,28 @@
 ?>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg scrolling-navbar navbar-light bg-light">
+<nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a id="navbar-color" class="navbar-brand" style="font-size: 32px;" href="#">ตัวเลือก</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a id="navbar-color" href="#" style="font-size: 32px;">หน้าหลัก</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a id="navbar-color" href="#" style="font-size: 32px;"> ภาษาไทย</a></li>
+        <li><a id="navbar-color" href="#" style="font-size: 32px;"> ภาษาอังกฤษ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- <nav class="navbar navbar-expand-lg scrolling-navbar navbar-light bg-light">
 	<div class="container">
       <a class="navbar-brand" href="#" style="font-family: engchalk; color: black;"><strong>STAR VOTE</strong></a>
       <button class="navbar-toggler" style="color: black;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,9 +50,9 @@
 		</ul>
       </div>
   </div>
-</nav>
-
+</nav> -->
 <section id="board">
+  <br><br>
 	<div class="container-fluid">
 		<center>
 			<p style="font-family: thai;font-size: 70px;color: white;">" วันวานยังหวานอยู่ "</p>
@@ -232,6 +252,18 @@ $(document).ready(function()
         }
     });
   });
+})
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if (scroll > 200) {
+      $(".navbar").css("background" , "#36353d");
+    }
+
+    else{
+      $(".navbar").css("background" , "transparent");   
+    }
+  })
 })
 </script>
 
