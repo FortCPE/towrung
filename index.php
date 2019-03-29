@@ -8,6 +8,7 @@
 <script type="text/javascript" src="Assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="Assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="Assets/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="Assets/js/turnjs4/lib/turn.min.js"></script>
 <link rel="stylesheet" href="Assets/css/fontawesome.css">
 <link rel="stylesheet" href="Assets/css/style.css" type="text/css">
 <?php 
@@ -34,7 +35,7 @@
 <section id="board">
 	<div class="container-fluid">
 		<center>
-			<p style="font-family: thai;font-size: 70px;color: white;">" ==== "</p>
+			<p style="font-family: thai;font-size: 70px;color: white;">" วันวานยังหวานอยู่ "</p>
 			<p style="margin-top: -15px;font-family: thai;font-size: 40px; color: white">ประกวดดาวเดือนเเห่งยุค ตามหาหนุ่มสาวสุดฮอตเเห่งปี ๒๕๖๒</p>
 			<img src="pic/oldpaper.png" style="width: 100%">
 		</center>
@@ -197,6 +198,24 @@
     </div>
 </div>
 
+
+<div id="flipbook">
+  <div class="hard"> Turn.js </div>
+  <div class="hard"></div>
+  <div> Page 1 </div>
+  <div> Page 2 </div>
+  <div> Page 3 </div>
+  <div> Page 4 </div>
+  <div class="hard"></div>
+  <div class="hard"></div>
+</div>
+<script type="text/javascript">
+  $("#flipbook").turn({
+    width: 400,
+    height: 300,
+    autoCenter: true
+  });
+</script>
 
 <footer>
 	<center>
