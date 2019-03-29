@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<!-- <nav class="navbar navbar-expand-lg scrolling-navbar navbar-light bg-light">
+<nav class="navbar navbar-expand-lg scrolling-navbar navbar-light bg-light">
 	<div class="container">
       <a class="navbar-brand" href="#" style="font-family: engchalk; color: black;"><strong>STAR VOTE</strong></a>
       <button class="navbar-toggler" style="color: black;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
 		</ul>
       </div>
   </div>
-</nav> -->
+</nav>
 
 <section id="board">
 	<div class="container-fluid">
