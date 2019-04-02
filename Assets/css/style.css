@@ -64,14 +64,15 @@ html {
 #turn{
   /* The image used */
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
     ),
     /* bottom, image */
-    url(../../pic/bg.jpg);
+    url(../../pic/boardcork.jpg);
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 500px;
+  width: 100%; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -139,6 +140,15 @@ html {
   margin-left: -200px;
 }
 
+.polaroid {
+  position: relative;
+  width: 100%;
+}
+
+.polaroid:hover .image {
+  opacity: 0.5;
+}
+
 .book {
    padding: 15px 0 0 0;
    margin: auto;
@@ -175,4 +185,12 @@ html {
   }
 .header_book{
   color: black;font-size: 64px;font-family: thai
+}
+
+.btn_vote:hover{
+  margin-left: 15%;
+}
+
+.container bookshelf{
+  background-color: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
 }

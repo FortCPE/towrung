@@ -58,46 +58,46 @@
 	<div class="container">
 		<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
 			<div class="col-sm-6">
+        <br><br><br><br>
 				<center>
-				<div class="poraroid">
+				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#doawModal" class="top_hover">
-						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p id="modal_thai">ดาว</p>
+						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%;">
 					</a>
 				</div>
   				</center>
 			</div>
 			<div class="col-sm-6">
+        <br><br><br><br>
 				<center>
-				<div class="poraroid">
+				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#deanModal" class="top_hover">
-						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p id="modal_thai">เดือน</p>
+						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
   				</center>
 			</div>
 			<div class="col-sm-6">
+        <br><br><br><br>
 				<center>
-				<div class="poraroid">
+				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#dtModal" class="top_hover">
-						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p id="modal_thai">ดาวเทียม</p>
+						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
   				</center>
 			</div>
 			<div class="col-sm-6">
+        <br><br><br><br>
 				<center>
-				<div class="poraroid">
+				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#sssModal" class="top_hover">
-						<img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-						<p id="modal_thai">สิ่งศักดิ์สิทธิ์</p>
+						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
   				</center>
 			</div>
-		</div>	
+		</div><br><br><br><br>
 	</div>
 </section>
 
@@ -170,12 +170,12 @@
 </section>
 
 <br><br><br>
-<div class="container">
+<div class="container ">
     <div class="row">
         <div class="col-xs-12 text-center">
-          <span class="header_book">ดาว</span>
+          <span class="header_book">ดาว น้อยหน่า</span>
         </div>
-        <div class="col-xs-3 col-md-3">
+        <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
           <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
@@ -183,28 +183,19 @@
         </div>
         <div class="col-xs-3 col-md-3">
           <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
-        </div>      
+        </div>
+        <div class="col-xs-12 shelf" style="margin-bottom: 20px;"></div>
+        <div class="col-xs-3 col-md-3" style="margin-left:25%;">
+          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+        </div>
         <div class="col-xs-3 col-md-3">
           <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
-        </div>  
+        </div>
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
-          <span class="header_book">เดือน</span>
+          <span class="header_book">เดือน เจี๊ยบ</span>
         </div>
-        <div class="col-xs-3 col-md-3" style="margin-left: 12%;">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
-        </div>
-        <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
-        </div>  
-        <div class="col-xs-12 shelf"></div>
-        <div class="col-xs-12 text-center" style="margin-top: 15px;">
-          <span class="header_book">ดาวเทียม</span>
-        </div>
-        <div class="col-xs-3 col-md-3" style="margin-left: 12%;">
+        <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
           <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
@@ -215,9 +206,22 @@
         </div>  
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
-          <span class="header_book">สิ่งศักสิทธิ์</span>
+          <span class="header_book">ดาวเทียม เเจ๊ค</span>
         </div>
-        <div class="col-xs-3 col-md-3" style="margin-left: 12%;">
+        <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
+          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+        </div>
+        <div class="col-xs-3 col-md-3">
+          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+        </div>
+        <div class="col-xs-3 col-md-3">
+          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+        </div>  
+        <div class="col-xs-12 shelf"></div>
+        <div class="col-xs-12 text-center" style="margin-top: 15px;">
+          <span class="header_book">สิ่งศักสิทธิ์ มาโนช</span>
+        </div>
+        <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
           <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
@@ -239,7 +243,7 @@
       <div class="modal-body">
         <center>
           
-          <div id="canvas"><button type="button" class="btn btn-info">vote</button>
+          <div id="canvas"><button type="button" class="btn btn_vote">vote</button>
             <div id="book-zoom">
               <div class="sj-book">
                 <div depth="5" class="hard"> <div class="side"></div> </div>
