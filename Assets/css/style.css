@@ -28,6 +28,10 @@ body
   font-family: engchalk;
   src: url(../fonts/CFMarieEve.ttf);
 }
+@font-face{
+  font-family: handwrite;
+  src: url(../fonts/pahnto.ttf);
+}
 /* For the "inset" look only */
 html {
     overflow: auto;
@@ -43,11 +47,11 @@ html {
 #board
 {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
     ),
     /* bottom, image */
-    url(../../pic/bgbackground.jpg);
+    url(../../pic/notebook.png);
 
   /* Set a specific height */
   min-height: 500px; 
@@ -87,7 +91,7 @@ html {
     z-index: 1;
     background: transparent;
     border: none;
-    font-family: thai;
+    font-family: handwrite;
     transition: 0.5s;
 }
 #navbar-color{
@@ -102,7 +106,7 @@ html {
     }
 }
 #modal_thai{
-  font-family: thai;
+  font-family: handwrite;
   font-size: 48px;
   text-decoration: none;
   color: #888;
@@ -189,8 +193,4 @@ html {
 
 .btn_vote:hover{
   margin-left: 15%;
-}
-
-.container bookshelf{
-  background-color: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
 }

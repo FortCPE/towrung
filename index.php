@@ -46,9 +46,10 @@
   <br><br>
 	<div class="container-fluid">
 		<center>
-			<p class="animated bounceInDown" style="font-family: thai;font-size: 70px;color: white;">" วันวานยังหวานอยู่ "</p>
-			<p class="animated bounceInUp" style="margin-top: -15px;font-family: thai;font-size: 40px; color: white">ประกวดดาวเดือนเเห่งยุค ตามหาหนุ่มสาวสุดฮอตเเห่งปี ๒๕๖๒</p>
-			<img src="pic/oldpaper.png" style="width: 70%">
+			<p class="animated bounceInDown" style="font-family: handwrite;font-size: 70px;color: #000066;">" วันวานยังหวานอยู่ "</p>
+			<p class="animated bounceInUp" style="margin-top: -15px;font-family: handwrite;font-size: 40px; color: #000066">ประกวดดาวเดือนเเห่งยุค ตามหาหนุ่มสาวสุดฮอตเเห่งปี ๒๕๖๒</p>
+			<!--<img src="pic/oldpaper.png" style="width: 70%">-->
+      <img src="pic/trophy.png" style="width: 70%">
 		</center>
 	</div>
   <br><br><br><br>
