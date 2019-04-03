@@ -177,59 +177,59 @@
           <span class="header_book">ดาว น้อยหน่า</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
-          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/mali.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/baibua.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/peach.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-12 shelf" style="margin-bottom: 20px;"></div>
         <div class="col-xs-3 col-md-3" style="margin-left:25%;">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/firm.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/program.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
           <span class="header_book">เดือน เจี๊ยบ</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/otto.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/cpee.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/mint.jpg" class="img-responsive book"></a>
         </div>  
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
           <span class="header_book">ดาวเทียม เเจ๊ค</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/au.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/pote.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/zen.jpg" class="img-responsive book"></a>
         </div>  
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
           <span class="header_book">สิ่งศักสิทธิ์ มาโนช</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/sming.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/nut.jpg" class="img-responsive book"></a>
         </div>
         <div class="col-xs-3 col-md-3">
-          <a href=""><img src="pic/bgbackground.jpg" class="img-responsive book"></a>
+          <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/guy.jpg" class="img-responsive book"></a>
         </div>  
         <div class="col-xs-12 shelf"></div>
     </div>
