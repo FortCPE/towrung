@@ -73,7 +73,7 @@
 				<center>
 				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#deanModal" class="top_hover">
-						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%">
+						<img src="pic/polaroid/moon.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
   				</center>
@@ -83,7 +83,7 @@
 				<center>
 				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#dtModal" class="top_hover">
-						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%">
+						<img src="pic/polaroid/fakestar.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
   				</center>
@@ -93,7 +93,7 @@
 				<center>
 				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#sssModal" class="top_hover">
-						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%">
+						<img src="pic/polaroid/saksit.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
   				</center>
