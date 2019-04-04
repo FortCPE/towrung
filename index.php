@@ -48,8 +48,39 @@
 		<center>
 			<p class="animated bounceInDown" style="font-family: handwrite;font-size: 70px;color: #000066;">" วันวานยังหวานอยู่ "</p>
 			<p class="animated bounceInUp" style="margin-top: -15px;font-family: handwrite;font-size: 40px; color: #000066">ประกวดดาวเดือนเเห่งยุค ตามหาหนุ่มสาวสุดฮอตเเห่งปี ๒๕๖๒</p>
-			<!--<img src="pic/oldpaper.png" style="width: 70%">-->
-      <img src="pic/trophy.png" style="width: 70%">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <br><br>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="pic/allgroup/allgroup1.png" alt="allgroup1" width="100%" height="100%">      
+                </div>
+
+                <div class="item">
+                  <img src="pic/allgroup/allgroup2.png" alt="allgroup2" width="100%" height="100%">     
+                </div>
+              
+                <div class="item">
+                  <img src="pic/allgroup/allgroup3.png" alt="allgroup3" width="100%" height="100%">      
+                </div>
+            </div>
+          </div>         
+          </div><div class="col-sm-5" style="margin-top: 15%;margin-left: -5%"><img src="pic/trophy.png" style="width: 70%"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12"><img src="pic/allgroup/allstep.png" alt="allstep" width="80%" height="80%" style="margin-top: 3%"></div>
+        </div>
+      </div>
 		</center>
 	</div>
   <br><br><br><br>
@@ -160,7 +191,6 @@
       <div class="modal-body" >
       	<center>
       	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-    		  <p>สิ่งศักดิ์สิทธิ์</p>
     		  <p id="modal_thai">สิ่งศักดิ์สิทธิ</p>
   		</center>
       </div>
@@ -174,7 +204,7 @@
 <div class="container ">
     <div class="row">
         <div class="col-xs-12 text-center">
-          <span class="header_book">ดาว น้อยหน่า</span>
+          <span class="header_book">ดาว (น้อยหน่า)</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
           <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/mali.jpg" class="img-responsive book"></a>
@@ -194,7 +224,7 @@
         </div>
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
-          <span class="header_book">เดือน เจี๊ยบ</span>
+          <span class="header_book">เดือน (เจี๊ยบ)</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
           <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/otto.jpg" class="img-responsive book"></a>
@@ -207,7 +237,7 @@
         </div>  
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
-          <span class="header_book">ดาวเทียม เเจ๊ค</span>
+          <span class="header_book">ดาวเทียม (เเจ๊ค)</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
           <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/au.jpg" class="img-responsive book"></a>
@@ -220,7 +250,7 @@
         </div>  
         <div class="col-xs-12 shelf"></div>
         <div class="col-xs-12 text-center" style="margin-top: 15px;">
-          <span class="header_book">สิ่งศักสิทธิ์ มาโนช</span>
+          <span class="header_book">สิ่งศักสิทธิ์ (มาโนช)</span>
         </div>
         <div class="col-xs-3 col-md-3"style="margin-left: 12%;">
           <a href="javascript:void(0)" data-toggle="modal" data-target="#bookModal" class="top_hover"><img src="pic/book/sming.jpg" class="img-responsive book"></a>

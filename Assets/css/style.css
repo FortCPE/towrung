@@ -68,8 +68,8 @@ html {
 #turn{
   /* The image used */
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
     ),
     /* bottom, image */
     url(../../pic/boardcork.jpg);
@@ -188,7 +188,7 @@ html {
    margin: 0 -20px;
   }
 .header_book{
-  color: black;font-size: 64px;font-family: thai
+  color: black;font-size: 60px;font-family: handwrite
 }
 
 .btn_vote:hover{
