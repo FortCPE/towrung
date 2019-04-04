@@ -126,7 +126,7 @@
 				<center>
 				<div class="polaroid">
 					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#starModal" class="top_hover">
-						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%;">
+						<img src="pic/polaroid/star.png" alt="Avatar" class="image" style="width:90%;">
 					</a>
 				</div>
   				</center>
