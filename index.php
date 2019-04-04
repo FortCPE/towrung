@@ -51,15 +51,42 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-7">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
+            <div class="slideshow-container">
+
+              <div class="mySlides">
+                <img src="pic/allgroup/allgroup1.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <img src="pic/allgroup/allgroup2.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <img src="pic/allgroup/allgroup3.png" style="width:100%">
+              </div>
+
+              </div>
+              <br>
+
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+
+            </div>
+
+
+
+            <!--<div id="myCarousel" class="carousel slide" data-ride="carousel">
+              Indicators 
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol>
 
-              <!-- Wrapper for slides -->
+             Wrapper for slides
               <br><br>
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -75,10 +102,15 @@
                 </div>
             </div>
           </div>         
-          </div><div class="col-sm-5" style="margin-top: 15%;margin-left: -5%"><img src="pic/trophy.png" style="width: 70%"></div>
-        </div>
+          </div>-->
+          <div class="col-sm-5" style="margin-top: 15%;margin-left: -5%">
+            <img src="pic/trophy.png" style="width: 70%"></div>
+          </div>
         <div class="row">
-          <div class="col-sm-12"><img src="pic/allgroup/allstep.png" alt="allstep" width="80%" height="80%" style="margin-top: 3%"></div>
+          <div class="col-sm-12">
+            <img src="pic/allgroup/allstep.png" alt="allstep" width="80%" height="80%" style="margin-top: 3%">
+            <img src="pic/border.png" alt="border" width="100%" style="margin-top: 4%">
+          </div>
         </div>
       </div>
 		</center>
@@ -93,7 +125,7 @@
         <br><br><br><br>
 				<center>
 				<div class="polaroid">
-					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#doawModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#starModal" class="top_hover">
 						<img src="pic/polaroid.png" alt="Avatar" class="image" style="width:90%;">
 					</a>
 				</div>
@@ -103,7 +135,7 @@
         <br><br><br><br>
 				<center>
 				<div class="polaroid">
-					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#deanModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#moonModal" class="top_hover">
 						<img src="pic/polaroid/moon.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
@@ -113,7 +145,7 @@
         <br><br><br><br>
 				<center>
 				<div class="polaroid">
-					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#dtModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#fakestarModal" class="top_hover">
 						<img src="pic/polaroid/fakestar.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
@@ -123,7 +155,7 @@
         <br><br><br><br>
 				<center>
 				<div class="polaroid">
-					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#sssModal" class="top_hover">
+					<a style="text-decoration: none" href="javascript:void(0)" data-toggle="modal" data-target="#holyModal" class="top_hover">
 						<img src="pic/polaroid/saksit.png" alt="Avatar" class="image" style="width:90%">
 					</a>
 				</div>
@@ -133,32 +165,58 @@
 	</div>
 </section>
 
-<!--DOAW-->
-<div id="doawModal" class="modal fade" role="dialog">
+<!--STAR-->
+<div id="starModal" class="modal fade" role="dialog">
   <div class="modal-dialog" style="margin-top: 100px;">
 
     <!-- Modal content-->
-    <div class="modal-content" style="background-color: transparent; border: none;">
+    <div class="modal-content">
       <div class="modal-body" >
       	<center>
       	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-      	  <p id="modal_thai">ดาว</p>
+      	  <p id="modal_thai">ดาว (น้อยหน่า)</p>
   		</center>
       </div>
    </div>
   </div>
 </div>
 
-<!--DEAN-->
-<div id="deanModal" class="modal fade" role="dialog">
+<!--MOOM-->
+<div id="moonModal" class="modal fade" role="dialog">
   <div class="modal-dialog" style="margin-top: 100px;">
 
     <!-- Modal content-->
-    <div class="modal-content" style="background-color: transparent; border: none;">
+    <div class="modal-content">
       <div class="modal-body" >
       	<center>
-      	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-  		  <p id="modal_thai">เดือน</p>
+      	  <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="pic/groupmoon/1.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="pic/groupmoon/2.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="pic/groupmoon/3.jpg" style="width:100%">
+              </div>
+
+          </div>
+
+              <br>
+
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+              </div>
+
+  		  <p id="modal_thai">เดือน (เจี๊ยบ)</p>
   		</center>
       </div>
    </div>
@@ -166,32 +224,82 @@
 </div>
 
 
-<!--DT-->
-<div id="dtModal" class="modal fade" role="dialog">
+<!--FAKESTAR-->
+<div id="fakestarModal" class="modal fade" role="dialog">
   <div class="modal-dialog" style="margin-top: 100px;">
 
     <!-- Modal content-->
-    <div class="modal-content" style="background-color: transparent; border: none;">
+    <div class="modal-content">
       <div class="modal-body" >
       	<center>
-      	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-  		  <p id="modal_thai">ดาวเทียม</p>
+      	  <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="pic/groupfake/1.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="pic/groupfake/2.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="pic/groupfake/3.jpg" style="width:100%">
+              </div>
+
+          </div>
+
+              <br>
+
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+              </div>
+  		  <p id="modal_thai">ดาวเทียม (เเจ๊ค)</p>
   		</center>
       </div>
    </div>
   </div>
 </div>
 
-<!--SSS-->
-<div id="sssModal" class="modal fade" role="dialog">
+<!--HOLY-->
+<div id="holyModal" class="modal fade" role="dialog">
   <div class="modal-dialog" style="margin-top: 100px;">
 
     <!-- Modal content-->
-    <div class="modal-content" style="background-color: transparent; border: none;">
+    <div class="modal-content">
       <div class="modal-body" >
       	<center>
-      	  <img src="pic/oldpaper.png" alt="Avatar" class="image" style="width:100%">
-    		  <p id="modal_thai">สิ่งศักดิ์สิทธิ</p>
+      	  <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="pic/groupholy/1.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="pic/groupholy/2.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="pic/groupholy/3.jpg" style="width:100%">
+              </div>
+
+          </div>
+
+              <br>
+
+              <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+              </div>
+    		  <p id="modal_thai">สิ่งศักดิ์สิทธิ์ (มาโนช)</p>
   		</center>
       </div>
    </div>
@@ -296,6 +404,36 @@
 </div>
 
 
+
+
+<footer>
+	<center>
+		<p><a href="#myPage">STAR VOTE</a> Web Design, Copyright &copy; Towrung JI, 2019</p>
+	</center>
+</footer>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+
 <script type="text/javascript">
   $("#flipbook").turn({
     width: 800,
@@ -303,12 +441,6 @@
     autoCenter: true
   });
 </script>
-
-<footer>
-	<center>
-		<p><a href="#myPage">STAR VOTE</a> Web Design, Copyright &copy; Towrung JI, 2019</p>
-	</center>
-</footer>
 
 <script>
 $(document).ready(function(){
