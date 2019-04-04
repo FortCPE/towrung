@@ -403,9 +403,6 @@
   </div>
 </div>
 
-
-
-
 <footer>
 	<center>
 		<p><a href="#myPage">STAR VOTE</a> Web Design, Copyright &copy; Towrung JI, 2019</p>
